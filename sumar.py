@@ -20,7 +20,7 @@ def calcular_suma_recursiva(valor, lista, pos):
 
         return actual + calcular_suma_recursiva(valor, lista, pos - 1)
     
-mi_lista = [3, 8, 5, 9, 7]
+mi_lista = [3, 8, 5, 9, 7, 8]
 valor_limite = 6
 
 resultado = sumaMayoresIguales(valor_limite, mi_lista)
